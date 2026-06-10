@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 Equipamentos
+
+    a(href="/update-cobj") Add to this table
+
+    table
+      thead
+        tr
+          th Name
+          th Modelo
+          th Status
+      tbody
+        each record in records
+          tr
+            td= record.properties.name
+            td= record.properties.modelo
+            td= record.properties.status

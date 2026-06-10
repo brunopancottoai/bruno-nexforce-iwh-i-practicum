@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 Update Custom Object Form
+
+    a(href="/") Return to the homepage
+
+    form(action="/update-cobj", method="POST")
+      div
+        label(for="name") Name
+        input(type="text", id="name", name="name", required)
+
+      div
+        label(for="modelo") Modelo
+        input(type="text", id="modelo", name="modelo", required)
+
+      div
+        label(for="status") Status
+        input(type="text", id="status", name="status", required)
+
+      button(type="submit") Submit
