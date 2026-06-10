@@ -29,3 +29,7 @@ ___
 # Integrating With HubSpot I Practicum
 
 Repository for my Integrating With HubSpot I: Foundations practicum.
+
+Custom object list view:
+
+https://app.hubspot.com/contacts/51594862/objects/2-63978319/views/all/list
